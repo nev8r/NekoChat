@@ -25,7 +25,7 @@ try:
             new_data = {
                 "instruction": "",
                 "input": original_instruction,
-                "output": original_output
+                "output": original_output + "</s>"
             }
             
             # 写入文件
